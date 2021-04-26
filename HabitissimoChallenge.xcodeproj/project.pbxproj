@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6906A3CC26370F8100E034C3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6906A3CB26370F8100E034C3 /* logo.png */; };
+		6935D1C52625BBAD0033D217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6935D1C42625BBAD0033D217 /* AppDelegate.swift */; };
+		6935D1CB2625BBB10033D217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6935D1CA2625BBB10033D217 /* Assets.xcassets */; };
+		6935D1CE2625BBB10033D217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6935D1CD2625BBB10033D217 /* Preview Assets.xcassets */; };
+		6935D1D12625BBB10033D217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6935D1CF2625BBB10033D217 /* LaunchScreen.storyboard */; };
+		6935D1DC2625BBB10033D217 /* HabitissimoChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6935D1DB2625BBB10033D217 /* HabitissimoChallengeTests.swift */; };
+		6935D1E72625BBB10033D217 /* HabitissimoChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6935D1E62625BBB10033D217 /* HabitissimoChallengeUITests.swift */; };
+		6935D2062629CD8E0033D217 /* verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 6935D2052629CD8E0033D217 /* verde.png */; };
+		6935D2082629D3130033D217 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6935D2072629D3130033D217 /* SceneDelegate.swift */; };
+		69DA27A4262A1DBB0045D670 /* EstimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA27A3262A1DBB0045D670 /* EstimationModel.swift */; };
+		69DA27A6262A28860045D670 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA27A5262A28860045D670 /* LocationModel.swift */; };
+		69DA27FC262AEC1B0045D670 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA27FB262AEC1B0045D670 /* CustomTextField.swift */; };
+		69DA27FE262AF0450045D670 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA27FD262AF0450045D670 /* Constants.swift */; };
+		69DA280A262B79880045D670 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA2809262B79880045D670 /* SwiftUIView.swift */; };
+		69DA280C262C984E0045D670 /* Declarations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA280B262C984E0045D670 /* Declarations.swift */; };
+		69DA280F262CAE1B0045D670 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA280D262CAE1B0045D670 /* BaseRequest.swift */; };
+		69DA2810262CAE1B0045D670 /* LocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA280E262CAE1B0045D670 /* LocationRequest.swift */; };
+		69DA2856262DA7F70045D670 /* favicon_Habitissimo.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DA2855262DA7F70045D670 /* favicon_Habitissimo.png */; };
+		69DA2858262DA7FB0045D670 /* Logo_Habitissimo.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DA2857262DA7FB0045D670 /* Logo_Habitissimo.png */; };
+		69DA285C262DA8DC0045D670 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA285A262DA8DB0045D670 /* NavigationBar.swift */; };
+		69DA285D262DA8DC0045D670 /* NavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DA285B262DA8DB0045D670 /* NavigationBar.xib */; };
+		69DA2873262DA98B0045D670 /* SplashController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DA285F262DA98B0045D670 /* SplashController.xib */; };
+		69DA2874262DA98B0045D670 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA2860262DA98B0045D670 /* SplashController.swift */; };
+		69DA288F262DF01B0045D670 /* EstimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA288D262DF01B0045D670 /* EstimationCell.swift */; };
+		69DA2890262DF01B0045D670 /* EstimationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DA288E262DF01B0045D670 /* EstimationCell.xib */; };
+		69DA289B26301F5C0045D670 /* EstimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA289926301F5C0045D670 /* EstimationViewController.swift */; };
+		69DA289C26301F5C0045D670 /* EstimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DA289A26301F5C0045D670 /* EstimationViewController.xib */; };
+		69DA292726305E940045D670 /* TCPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA291B26305E930045D670 /* TCPickerView.swift */; };
+		69DA292826305E940045D670 /* NSLayoutConstraint+Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA291C26305E930045D670 /* NSLayoutConstraint+Additional.swift */; };
+		69DA292926305E940045D670 /* TCPickerView+Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA291D26305E930045D670 /* TCPickerView+Mode.swift */; };
+		69DA292A26305E940045D670 /* TCPickerView+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA291E26305E930045D670 /* TCPickerView+Theme.swift */; };
+		69DA292B26305E940045D670 /* TCPickerViewLightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA292026305E930045D670 /* TCPickerViewLightTheme.swift */; };
+		69DA292C26305E940045D670 /* TCPickerViewDarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA292126305E930045D670 /* TCPickerViewDarkTheme.swift */; };
+		69DA292D26305E940045D670 /* TCPickerViewThemeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA292226305E930045D670 /* TCPickerViewThemeType.swift */; };
+		69DA292E26305E940045D670 /* TCPickerView+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA292326305E930045D670 /* TCPickerView+Value.swift */; };
+		69DA292F26305E940045D670 /* TCPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA292426305E930045D670 /* TCPickerTableViewCell.swift */; };
+		69DA293026305E940045D670 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DA292626305E930045D670 /* Media.xcassets */; };
+		69DA293226307FD20045D670 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA293126307FD20045D670 /* LineView.swift */; };
+		69DA2935263095CF0045D670 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA2934263095CF0045D670 /* AppButton.swift */; };
+		69DA294E2630BE780045D670 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA294D2630BE780045D670 /* CustomTextView.swift */; };
+		69DA2951263174DD0045D670 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA294F263174DD0045D670 /* HomeViewController.swift */; };
+		69DA2952263174DD0045D670 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DA2950263174DD0045D670 /* HomeViewController.xib */; };
+		69DA29542631ABE90045D670 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA29532631ABE80045D670 /* CategoryModel.swift */; };
+		69DA29562631AD380045D670 /* SubcategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA29552631AD380045D670 /* SubcategoryModel.swift */; };
+		69DA29582631B1B40045D670 /* CategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA29572631B1B40045D670 /* CategoryRequest.swift */; };
+		69DA295A2632CD460045D670 /* SubcategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA29592632CD460045D670 /* SubcategoryRequest.swift */; };
+		69DA295C2632E1190045D670 /* CheckInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA295B2632E1190045D670 /* CheckInterface.swift */; };
+		69DA2960263317050045D670 /* habitDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69DA295E263317050045D670 /* habitDB.xcdatamodeld */; };
+		69DA296426344A870045D670 /* Estimation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA296226344A870045D670 /* Estimation+CoreDataClass.swift */; };
+		69DA296526344A870045D670 /* Estimation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA296326344A870045D670 /* Estimation+CoreDataProperties.swift */; };
+		69DA296A2636D9820045D670 /* add-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DA29682636D9820045D670 /* add-on.png */; };
+		69DA296B2636D9820045D670 /* add-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DA29692636D9820045D670 /* add-off.png */; };
+		69DA296D2636F4D20045D670 /* gradient_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DA296C2636F4D10045D670 /* gradient_bg.png */; };
+		69DA296F2636F5180045D670 /* bullet_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DA296E2636F5180045D670 /* bullet_loading.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6935D1D82625BBB10033D217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6935D1B92625BBAD0033D217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6935D1C02625BBAD0033D217;
+			remoteInfo = HabitissimoChallenge;
+		};
+		6935D1E32625BBB10033D217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6935D1B92625BBAD0033D217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6935D1C02625BBAD0033D217;
+			remoteInfo = HabitissimoChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6906A3CB26370F8100E034C3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		6935D1C12625BBAD0033D217 /* HabitissimoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitissimoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6935D1C42625BBAD0033D217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		6935D1CA2625BBB10033D217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6935D1CD2625BBB10033D217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6935D1D02625BBB10033D217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6935D1D22625BBB10033D217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6935D1D72625BBB10033D217 /* HabitissimoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitissimoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6935D1DB2625BBB10033D217 /* HabitissimoChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitissimoChallengeTests.swift; sourceTree = "<group>"; };
+		6935D1DD2625BBB10033D217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6935D1E22625BBB10033D217 /* HabitissimoChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitissimoChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6935D1E62625BBB10033D217 /* HabitissimoChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitissimoChallengeUITests.swift; sourceTree = "<group>"; };
+		6935D1E82625BBB10033D217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6935D2052629CD8E0033D217 /* verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verde.png; sourceTree = "<group>"; };
+		6935D2072629D3130033D217 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69DA27A3262A1DBB0045D670 /* EstimationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimationModel.swift; sourceTree = "<group>"; };
+		69DA27A5262A28860045D670 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		69DA27FB262AEC1B0045D670 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		69DA27FD262AF0450045D670 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		69DA2809262B79880045D670 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		69DA280B262C984E0045D670 /* Declarations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Declarations.swift; sourceTree = "<group>"; };
+		69DA280D262CAE1B0045D670 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		69DA280E262CAE1B0045D670 /* LocationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationRequest.swift; sourceTree = "<group>"; };
+		69DA2855262DA7F70045D670 /* favicon_Habitissimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favicon_Habitissimo.png; sourceTree = "<group>"; };
+		69DA2857262DA7FB0045D670 /* Logo_Habitissimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Habitissimo.png; sourceTree = "<group>"; };
+		69DA285A262DA8DB0045D670 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		69DA285B262DA8DB0045D670 /* NavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBar.xib; sourceTree = "<group>"; };
+		69DA285F262DA98B0045D670 /* SplashController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashController.xib; sourceTree = "<group>"; };
+		69DA2860262DA98B0045D670 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		69DA288D262DF01B0045D670 /* EstimationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimationCell.swift; sourceTree = "<group>"; };
+		69DA288E262DF01B0045D670 /* EstimationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EstimationCell.xib; sourceTree = "<group>"; };
+		69DA289926301F5C0045D670 /* EstimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimationViewController.swift; sourceTree = "<group>"; };
+		69DA289A26301F5C0045D670 /* EstimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EstimationViewController.xib; sourceTree = "<group>"; };
+		69DA291B26305E930045D670 /* TCPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPickerView.swift; sourceTree = "<group>"; };
+		69DA291C26305E930045D670 /* NSLayoutConstraint+Additional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Additional.swift"; sourceTree = "<group>"; };
+		69DA291D26305E930045D670 /* TCPickerView+Mode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCPickerView+Mode.swift"; sourceTree = "<group>"; };
+		69DA291E26305E930045D670 /* TCPickerView+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCPickerView+Theme.swift"; sourceTree = "<group>"; };
+		69DA292026305E930045D670 /* TCPickerViewLightTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPickerViewLightTheme.swift; sourceTree = "<group>"; };
+		69DA292126305E930045D670 /* TCPickerViewDarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPickerViewDarkTheme.swift; sourceTree = "<group>"; };
+		69DA292226305E930045D670 /* TCPickerViewThemeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPickerViewThemeType.swift; sourceTree = "<group>"; };
+		69DA292326305E930045D670 /* TCPickerView+Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TCPickerView+Value.swift"; sourceTree = "<group>"; };
+		69DA292426305E930045D670 /* TCPickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPickerTableViewCell.swift; sourceTree = "<group>"; };
+		69DA292626305E930045D670 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		69DA293126307FD20045D670 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		69DA2934263095CF0045D670 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		69DA294D2630BE780045D670 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		69DA294F263174DD0045D670 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		69DA2950263174DD0045D670 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		69DA29532631ABE80045D670 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		69DA29552631AD380045D670 /* SubcategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryModel.swift; sourceTree = "<group>"; };
+		69DA29572631B1B40045D670 /* CategoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRequest.swift; sourceTree = "<group>"; };
+		69DA29592632CD460045D670 /* SubcategoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoryRequest.swift; sourceTree = "<group>"; };
+		69DA295B2632E1190045D670 /* CheckInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInterface.swift; sourceTree = "<group>"; };
+		69DA295F263317050045D670 /* habitDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = habitDB.xcdatamodel; sourceTree = "<group>"; };
+		69DA296226344A870045D670 /* Estimation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Estimation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		69DA296326344A870045D670 /* Estimation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Estimation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		69DA29682636D9820045D670 /* add-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-on.png"; sourceTree = "<group>"; };
+		69DA29692636D9820045D670 /* add-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-off.png"; sourceTree = "<group>"; };
+		69DA296C2636F4D10045D670 /* gradient_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient_bg.png; sourceTree = "<group>"; };
+		69DA296E2636F5180045D670 /* bullet_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet_loading.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6935D1BE2625BBAD0033D217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6935D1D42625BBB10033D217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6935D1DF2625BBB10033D217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6935D1B82625BBAD0033D217 = {
+			isa = PBXGroup;
+			children = (
+				6935D1C32625BBAD0033D217 /* HabitissimoChallenge */,
+				6935D1DA2625BBB10033D217 /* HabitissimoChallengeTests */,
+				6935D1E52625BBB10033D217 /* HabitissimoChallengeUITests */,
+				6935D1C22625BBAD0033D217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6935D1C22625BBAD0033D217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6935D1C12625BBAD0033D217 /* HabitissimoChallenge.app */,
+				6935D1D72625BBB10033D217 /* HabitissimoChallengeTests.xctest */,
+				6935D1E22625BBB10033D217 /* HabitissimoChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6935D1C32625BBAD0033D217 /* HabitissimoChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				6935D1CF2625BBB10033D217 /* LaunchScreen.storyboard */,
+				6935D1F42625BC660033D217 /* Libraries */,
+				69DA296126344A280045D670 /* Data */,
+				6935D1F52625BC740033D217 /* Classes */,
+				6935D1F62625BC9E0033D217 /* Resources */,
+				6935D1D22625BBB10033D217 /* Info.plist */,
+				6935D1CA2625BBB10033D217 /* Assets.xcassets */,
+				6935D1CC2625BBB10033D217 /* Preview Content */,
+			);
+			path = HabitissimoChallenge;
+			sourceTree = "<group>";
+		};
+		6935D1CC2625BBB10033D217 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6935D1CD2625BBB10033D217 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6935D1DA2625BBB10033D217 /* HabitissimoChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6935D1DB2625BBB10033D217 /* HabitissimoChallengeTests.swift */,
+				6935D1DD2625BBB10033D217 /* Info.plist */,
+			);
+			path = HabitissimoChallengeTests;
+			sourceTree = "<group>";
+		};
+		6935D1E52625BBB10033D217 /* HabitissimoChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6935D1E62625BBB10033D217 /* HabitissimoChallengeUITests.swift */,
+				6935D1E82625BBB10033D217 /* Info.plist */,
+			);
+			path = HabitissimoChallengeUITests;
+			sourceTree = "<group>";
+		};
+		6935D1F42625BC660033D217 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				69DA291926305E930045D670 /* TCPickerView */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		6935D1F52625BC740033D217 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6935D1C42625BBAD0033D217 /* AppDelegate.swift */,
+				6935D2072629D3130033D217 /* SceneDelegate.swift */,
+				6935D1F72625BCD60033D217 /* Components */,
+				6935D1FA2625BD810033D217 /* Models */,
+				6935D1FB2625BD8E0033D217 /* Requests */,
+				6935D1F82625BCDE0033D217 /* Screens */,
+				6935D1F92625BCE40033D217 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6935D1F62625BC9E0033D217 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69DA29672636D9780045D670 /* Topbar */,
+				69DA2854262DA7E20045D670 /* Splash */,
+				6935D2042629CD770033D217 /* Home */,
+				69DA295E263317050045D670 /* habitDB.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6935D1F72625BCD60033D217 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				69DA295B2632E1190045D670 /* CheckInterface.swift */,
+				69DA293126307FD20045D670 /* LineView.swift */,
+				69DA2933263095BB0045D670 /* AppButton */,
+				69DA2859262DA8DB0045D670 /* NavigationBar */,
+				69DA27AA262AE4D90045D670 /* CustomTextField */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6935D1F82625BCDE0033D217 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				69DA285E262DA98B0045D670 /* Splash */,
+				6935D1FF2629C81C0033D217 /* home */,
+				69DA27A7262AD8610045D670 /* estimation */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6935D1F92625BCE40033D217 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				69DA280B262C984E0045D670 /* Declarations.swift */,
+				69DA27FD262AF0450045D670 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6935D1FA2625BD810033D217 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69DA27A3262A1DBB0045D670 /* EstimationModel.swift */,
+				69DA27A5262A28860045D670 /* LocationModel.swift */,
+				69DA29532631ABE80045D670 /* CategoryModel.swift */,
+				69DA29552631AD380045D670 /* SubcategoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6935D1FB2625BD8E0033D217 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				69DA280D262CAE1B0045D670 /* BaseRequest.swift */,
+				69DA280E262CAE1B0045D670 /* LocationRequest.swift */,
+				69DA29572631B1B40045D670 /* CategoryRequest.swift */,
+				69DA29592632CD460045D670 /* SubcategoryRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		6935D1FF2629C81C0033D217 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				69DA2886262DE00C0045D670 /* cells */,
+				69DA294F263174DD0045D670 /* HomeViewController.swift */,
+				69DA2950263174DD0045D670 /* HomeViewController.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		6935D2042629CD770033D217 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6935D2052629CD8E0033D217 /* verde.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		69DA27A7262AD8610045D670 /* estimation */ = {
+			isa = PBXGroup;
+			children = (
+				69DA2800262AFE030045D670 /* Views */,
+				69DA289926301F5C0045D670 /* EstimationViewController.swift */,
+				69DA289A26301F5C0045D670 /* EstimationViewController.xib */,
+			);
+			path = estimation;
+			sourceTree = "<group>";
+		};
+		69DA27AA262AE4D90045D670 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				69DA27FB262AEC1B0045D670 /* CustomTextField.swift */,
+				69DA294D2630BE780045D670 /* CustomTextView.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		69DA2800262AFE030045D670 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69DA2809262B79880045D670 /* SwiftUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69DA2854262DA7E20045D670 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6906A3CB26370F8100E034C3 /* logo.png */,
+				69DA296E2636F5180045D670 /* bullet_loading.png */,
+				69DA296C2636F4D10045D670 /* gradient_bg.png */,
+				69DA2857262DA7FB0045D670 /* Logo_Habitissimo.png */,
+				69DA2855262DA7F70045D670 /* favicon_Habitissimo.png */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		69DA2859262DA8DB0045D670 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				69DA285A262DA8DB0045D670 /* NavigationBar.swift */,
+				69DA285B262DA8DB0045D670 /* NavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		69DA285E262DA98B0045D670 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				69DA285F262DA98B0045D670 /* SplashController.xib */,
+				69DA2860262DA98B0045D670 /* SplashController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		69DA2886262DE00C0045D670 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				69DA288D262DF01B0045D670 /* EstimationCell.swift */,
+				69DA288E262DF01B0045D670 /* EstimationCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		69DA291926305E930045D670 /* TCPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				69DA291B26305E930045D670 /* TCPickerView.swift */,
+				69DA291C26305E930045D670 /* NSLayoutConstraint+Additional.swift */,
+				69DA291D26305E930045D670 /* TCPickerView+Mode.swift */,
+				69DA291E26305E930045D670 /* TCPickerView+Theme.swift */,
+				69DA292326305E930045D670 /* TCPickerView+Value.swift */,
+				69DA292426305E930045D670 /* TCPickerTableViewCell.swift */,
+				69DA292026305E930045D670 /* TCPickerViewLightTheme.swift */,
+				69DA292126305E930045D670 /* TCPickerViewDarkTheme.swift */,
+				69DA292226305E930045D670 /* TCPickerViewThemeType.swift */,
+				69DA292526305E930045D670 /* Resources */,
+			);
+			path = TCPickerView;
+			sourceTree = "<group>";
+		};
+		69DA292526305E930045D670 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69DA292626305E930045D670 /* Media.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69DA2933263095BB0045D670 /* AppButton */ = {
+			isa = PBXGroup;
+			children = (
+				69DA2934263095CF0045D670 /* AppButton.swift */,
+			);
+			path = AppButton;
+			sourceTree = "<group>";
+		};
+		69DA296126344A280045D670 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				69DA296226344A870045D670 /* Estimation+CoreDataClass.swift */,
+				69DA296326344A870045D670 /* Estimation+CoreDataProperties.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		69DA29672636D9780045D670 /* Topbar */ = {
+			isa = PBXGroup;
+			children = (
+				69DA29692636D9820045D670 /* add-off.png */,
+				69DA29682636D9820045D670 /* add-on.png */,
+			);
+			path = Topbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6935D1C02625BBAD0033D217 /* HabitissimoChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6935D1EB2625BBB10033D217 /* Build configuration list for PBXNativeTarget "HabitissimoChallenge" */;
+			buildPhases = (
+				6935D1BD2625BBAD0033D217 /* Sources */,
+				6935D1BE2625BBAD0033D217 /* Frameworks */,
+				6935D1BF2625BBAD0033D217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HabitissimoChallenge;
+			productName = HabitissimoChallenge;
+			productReference = 6935D1C12625BBAD0033D217 /* HabitissimoChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6935D1D62625BBB10033D217 /* HabitissimoChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6935D1EE2625BBB10033D217 /* Build configuration list for PBXNativeTarget "HabitissimoChallengeTests" */;
+			buildPhases = (
+				6935D1D32625BBB10033D217 /* Sources */,
+				6935D1D42625BBB10033D217 /* Frameworks */,
+				6935D1D52625BBB10033D217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6935D1D92625BBB10033D217 /* PBXTargetDependency */,
+			);
+			name = HabitissimoChallengeTests;
+			productName = HabitissimoChallengeTests;
+			productReference = 6935D1D72625BBB10033D217 /* HabitissimoChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6935D1E12625BBB10033D217 /* HabitissimoChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6935D1F12625BBB10033D217 /* Build configuration list for PBXNativeTarget "HabitissimoChallengeUITests" */;
+			buildPhases = (
+				6935D1DE2625BBB10033D217 /* Sources */,
+				6935D1DF2625BBB10033D217 /* Frameworks */,
+				6935D1E02625BBB10033D217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6935D1E42625BBB10033D217 /* PBXTargetDependency */,
+			);
+			name = HabitissimoChallengeUITests;
+			productName = HabitissimoChallengeUITests;
+			productReference = 6935D1E22625BBB10033D217 /* HabitissimoChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6935D1B92625BBAD0033D217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Arturo Dominguez Sanchez";
+				TargetAttributes = {
+					6935D1C02625BBAD0033D217 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					6935D1D62625BBB10033D217 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6935D1C02625BBAD0033D217;
+					};
+					6935D1E12625BBB10033D217 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6935D1C02625BBAD0033D217;
+					};
+				};
+			};
+			buildConfigurationList = 6935D1BC2625BBAD0033D217 /* Build configuration list for PBXProject "HabitissimoChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6935D1B82625BBAD0033D217;
+			productRefGroup = 6935D1C22625BBAD0033D217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6935D1C02625BBAD0033D217 /* HabitissimoChallenge */,
+				6935D1D62625BBB10033D217 /* HabitissimoChallengeTests */,
+				6935D1E12625BBB10033D217 /* HabitissimoChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6935D1BF2625BBAD0033D217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DA296A2636D9820045D670 /* add-on.png in Resources */,
+				69DA296D2636F4D20045D670 /* gradient_bg.png in Resources */,
+				6935D1D12625BBB10033D217 /* LaunchScreen.storyboard in Resources */,
+				6935D1CE2625BBB10033D217 /* Preview Assets.xcassets in Resources */,
+				69DA2952263174DD0045D670 /* HomeViewController.xib in Resources */,
+				6906A3CC26370F8100E034C3 /* logo.png in Resources */,
+				69DA293026305E940045D670 /* Media.xcassets in Resources */,
+				69DA2856262DA7F70045D670 /* favicon_Habitissimo.png in Resources */,
+				6935D2062629CD8E0033D217 /* verde.png in Resources */,
+				69DA296B2636D9820045D670 /* add-off.png in Resources */,
+				69DA2858262DA7FB0045D670 /* Logo_Habitissimo.png in Resources */,
+				69DA296F2636F5180045D670 /* bullet_loading.png in Resources */,
+				69DA2873262DA98B0045D670 /* SplashController.xib in Resources */,
+				69DA2890262DF01B0045D670 /* EstimationCell.xib in Resources */,
+				6935D1CB2625BBB10033D217 /* Assets.xcassets in Resources */,
+				69DA289C26301F5C0045D670 /* EstimationViewController.xib in Resources */,
+				69DA285D262DA8DC0045D670 /* NavigationBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6935D1D52625BBB10033D217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6935D1E02625BBB10033D217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6935D1BD2625BBAD0033D217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DA27FC262AEC1B0045D670 /* CustomTextField.swift in Sources */,
+				6935D1C52625BBAD0033D217 /* AppDelegate.swift in Sources */,
+				69DA295C2632E1190045D670 /* CheckInterface.swift in Sources */,
+				69DA292E26305E940045D670 /* TCPickerView+Value.swift in Sources */,
+				69DA292D26305E940045D670 /* TCPickerViewThemeType.swift in Sources */,
+				69DA295A2632CD460045D670 /* SubcategoryRequest.swift in Sources */,
+				69DA280A262B79880045D670 /* SwiftUIView.swift in Sources */,
+				69DA293226307FD20045D670 /* LineView.swift in Sources */,
+				69DA2960263317050045D670 /* habitDB.xcdatamodeld in Sources */,
+				69DA285C262DA8DC0045D670 /* NavigationBar.swift in Sources */,
+				69DA296526344A870045D670 /* Estimation+CoreDataProperties.swift in Sources */,
+				69DA29562631AD380045D670 /* SubcategoryModel.swift in Sources */,
+				69DA292726305E940045D670 /* TCPickerView.swift in Sources */,
+				69DA29582631B1B40045D670 /* CategoryRequest.swift in Sources */,
+				69DA292B26305E940045D670 /* TCPickerViewLightTheme.swift in Sources */,
+				69DA2874262DA98B0045D670 /* SplashController.swift in Sources */,
+				69DA280C262C984E0045D670 /* Declarations.swift in Sources */,
+				69DA280F262CAE1B0045D670 /* BaseRequest.swift in Sources */,
+				69DA27A4262A1DBB0045D670 /* EstimationModel.swift in Sources */,
+				69DA292C26305E940045D670 /* TCPickerViewDarkTheme.swift in Sources */,
+				69DA289B26301F5C0045D670 /* EstimationViewController.swift in Sources */,
+				69DA29542631ABE90045D670 /* CategoryModel.swift in Sources */,
+				69DA288F262DF01B0045D670 /* EstimationCell.swift in Sources */,
+				69DA292A26305E940045D670 /* TCPickerView+Theme.swift in Sources */,
+				69DA2935263095CF0045D670 /* AppButton.swift in Sources */,
+				69DA2951263174DD0045D670 /* HomeViewController.swift in Sources */,
+				69DA292826305E940045D670 /* NSLayoutConstraint+Additional.swift in Sources */,
+				69DA292926305E940045D670 /* TCPickerView+Mode.swift in Sources */,
+				69DA294E2630BE780045D670 /* CustomTextView.swift in Sources */,
+				69DA292F26305E940045D670 /* TCPickerTableViewCell.swift in Sources */,
+				69DA27A6262A28860045D670 /* LocationModel.swift in Sources */,
+				69DA2810262CAE1B0045D670 /* LocationRequest.swift in Sources */,
+				6935D2082629D3130033D217 /* SceneDelegate.swift in Sources */,
+				69DA296426344A870045D670 /* Estimation+CoreDataClass.swift in Sources */,
+				69DA27FE262AF0450045D670 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6935D1D32625BBB10033D217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6935D1DC2625BBB10033D217 /* HabitissimoChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6935D1DE2625BBB10033D217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6935D1E72625BBB10033D217 /* HabitissimoChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6935D1D92625BBB10033D217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6935D1C02625BBAD0033D217 /* HabitissimoChallenge */;
+			targetProxy = 6935D1D82625BBB10033D217 /* PBXContainerItemProxy */;
+		};
+		6935D1E42625BBB10033D217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6935D1C02625BBAD0033D217 /* HabitissimoChallenge */;
+			targetProxy = 6935D1E32625BBB10033D217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6935D1CF2625BBB10033D217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6935D1D02625BBB10033D217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6935D1E92625BBB10033D217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6935D1EA2625BBB10033D217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6935D1EC2625BBB10033D217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitissimoChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = SW7N77HCL2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HabitissimoChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.HabitissimoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6935D1ED2625BBB10033D217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitissimoChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = SW7N77HCL2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HabitissimoChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.HabitissimoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6935D1EF2625BBB10033D217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitissimoChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.HabitissimoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitissimoChallenge.app/HabitissimoChallenge";
+			};
+			name = Debug;
+		};
+		6935D1F02625BBB10033D217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitissimoChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.HabitissimoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitissimoChallenge.app/HabitissimoChallenge";
+			};
+			name = Release;
+		};
+		6935D1F22625BBB10033D217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitissimoChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.HabitissimoChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HabitissimoChallenge;
+			};
+			name = Debug;
+		};
+		6935D1F32625BBB10033D217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitissimoChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.HabitissimoChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HabitissimoChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6935D1BC2625BBAD0033D217 /* Build configuration list for PBXProject "HabitissimoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6935D1E92625BBB10033D217 /* Debug */,
+				6935D1EA2625BBB10033D217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6935D1EB2625BBB10033D217 /* Build configuration list for PBXNativeTarget "HabitissimoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6935D1EC2625BBB10033D217 /* Debug */,
+				6935D1ED2625BBB10033D217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6935D1EE2625BBB10033D217 /* Build configuration list for PBXNativeTarget "HabitissimoChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6935D1EF2625BBB10033D217 /* Debug */,
+				6935D1F02625BBB10033D217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6935D1F12625BBB10033D217 /* Build configuration list for PBXNativeTarget "HabitissimoChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6935D1F22625BBB10033D217 /* Debug */,
+				6935D1F32625BBB10033D217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69DA295E263317050045D670 /* habitDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69DA295F263317050045D670 /* habitDB.xcdatamodel */,
+			);
+			currentVersion = 69DA295F263317050045D670 /* habitDB.xcdatamodel */;
+			path = habitDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6935D1B92625BBAD0033D217 /* Project object */;
+}

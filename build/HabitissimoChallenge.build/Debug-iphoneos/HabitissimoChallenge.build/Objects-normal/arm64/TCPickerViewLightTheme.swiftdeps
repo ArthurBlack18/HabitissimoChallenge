@@ -1,0 +1,209 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TCPickerViewLightTheme"
+provides-nominal:
+- "20HabitissimoChallenge22TCPickerViewLightThemeC"
+provides-member:
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", ""]
+provides-dynamic-lookup:
+- "backgroundColor"
+- "buttonsFont"
+- "closeBackgroundColor"
+- "closeText"
+- "closeTextColor"
+- "cornerRadius"
+- "doneBackgroundColor"
+- "doneText"
+- "doneTextColor"
+- "headerBackgroundColor"
+- "mainColor"
+- "rowHeight"
+- "searchColor"
+- "separatorColor"
+- "textColor"
+- "titleColor"
+- "titleFont"
+depends-top-level:
+- "CGFloat"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- "TCPickerViewLightTheme"
+- "TCPickerViewThemeType"
+- "UIColor"
+- "UIFont"
+depends-member:
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "boldSystemFont"]
+- ["s7CVarArgP", "darkGray"]
+- !private ["s7CVarArgP", "systemFont"]
+- ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "boldSystemFont"]
+- ["s28CustomDebugStringConvertibleP", "darkGray"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "boldSystemFont"]
+- ["s23CustomStringConvertibleP", "darkGray"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- ["s23CustomStringConvertibleP", "white"]
+- !private ["SQ", "black"]
+- !private ["SQ", "boldSystemFont"]
+- ["SQ", "darkGray"]
+- !private ["SQ", "systemFont"]
+- ["SQ", "white"]
+- !private ["SH", "black"]
+- !private ["SH", "boldSystemFont"]
+- ["SH", "darkGray"]
+- !private ["SH", "systemFont"]
+- ["SH", "white"]
+- !private ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "darkGray"]
+- ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "boldSystemFont"]
+- ["So9NSCopyingP", "darkGray"]
+- !private ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "darkGray"]
+- ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "darkGray"]
+- ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "boldSystemFont"]
+- ["So8NSObjectC", "darkGray"]
+- !private ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "boldSystemFont"]
+- ["So8NSObjectP", "darkGray"]
+- !private ["So8NSObjectP", "systemFont"]
+- ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "black"]
+- ["So14NSSecureCodingP", "darkGray"]
+- ["So14NSSecureCodingP", "white"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "CGFloat"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "String"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "UIColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "UIFont"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "backgroundColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "buttonsFont"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "closeBackgroundColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "closeText"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "closeTextColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "cornerRadius"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "deinit"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "doneBackgroundColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "doneText"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "doneTextColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "headerBackgroundColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "headerHeight"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "init"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "mainColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "rowHeight"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "searchColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "separatorColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "textColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "titleColor"]
+- ["20HabitissimoChallenge22TCPickerViewLightThemeC", "titleFont"]
+- !private ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "UIFont"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", ""]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "backgroundColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "buttonsFont"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "closeBackgroundColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "closeText"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "closeTextColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "cornerRadius"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "doneBackgroundColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "doneText"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "doneTextColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "headerBackgroundColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "headerHeight"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "init"]
+- !private ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "mainColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "rowHeight"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "searchColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "separatorColor"]
+- !private ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "textColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "titleColor"]
+- ["20HabitissimoChallenge21TCPickerViewThemeTypeP", "titleFont"]
+- !private ["So7UIColorC", "black"]
+- ["So7UIColorC", "darkGray"]
+- ["So7UIColorC", "white"]
+- !private ["So6UIFontC", "boldSystemFont"]
+- !private ["So6UIFontC", "systemFont"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s26_ExpressibleByColorLiteralP", "darkGray"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boldSystemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "darkGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "boldSystemFont"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "darkGray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemFont"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "20HabitissimoChallenge22TCPickerViewLightThemeC"
+- "20HabitissimoChallenge21TCPickerViewThemeTypeP"
+- "So7UIColorC"
+- !private "So6UIFontC"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/MapKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7004a2da02e0be78282f9bb89f83836a"

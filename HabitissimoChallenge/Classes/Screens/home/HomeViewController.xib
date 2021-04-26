@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="HabitissimoChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="8jj-h2-Tx2" id="w6Y-Xz-ses"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8yd-iT-cdq">
+                    <rect key="frame" x="0.0" y="44" width="414" height="20"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8jj-h2-Tx2">
+                    <rect key="frame" x="0.0" y="64" width="414" height="798"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="8jj-h2-Tx2" secondAttribute="bottom" id="C2j-kW-p97"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8jj-h2-Tx2" secondAttribute="trailing" id="ULq-61-xdx"/>
+                <constraint firstItem="8jj-h2-Tx2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="WrW-Eg-8tE"/>
+                <constraint firstItem="8yd-iT-cdq" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0223214" id="YIV-7c-gKS"/>
+                <constraint firstItem="8yd-iT-cdq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mWM-QX-ja4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8yd-iT-cdq" secondAttribute="trailing" id="nfb-kX-edG"/>
+                <constraint firstItem="8yd-iT-cdq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="uTk-tf-Rle"/>
+                <constraint firstItem="8jj-h2-Tx2" firstAttribute="top" secondItem="8yd-iT-cdq" secondAttribute="bottom" id="uoj-jH-kju"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="123.88392857142857"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,659 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "iPhone"
+- "iPad"
+- "delayedCall"
+- "size"
+- "delay"
+provides-nominal:
+provides-member:
+- ["So22UINavigationControllerC", ""]
+- ["7SwiftUI4ViewP", ""]
+- ["So16UIViewControllerC", ""]
+- ["So22UINavigationControllerC", "pushViewControllerRemovingSelf"]
+- ["So22UINavigationControllerC", "pushViewControllerRemovingAll"]
+- ["7SwiftUI4ViewP", "hideKeyboard"]
+- ["So16UIViewControllerC", "hideKeyboardWhenTappedAround"]
+- ["So16UIViewControllerC", "dismissKeyboard"]
+- ["So16UIViewControllerC", "validateFields"]
+provides-dynamic-lookup:
+- "dismissKeyboard"
+- "hideKeyboardWhenTappedAround"
+- "pushViewControllerRemovingAll"
+- "pushViewControllerRemovingSelf"
+- "validateFields"
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CastingPrecedence"
+- !private "CheckInterface"
+- !private "DispatchQueue"
+- !private "DispatchTime"
+- !private "DispatchTimeInterval"
+- "Double"
+- "FloatLiteralType"
+- !private "Int"
+- !private "Int64"
+- !private "IntegerLiteralType"
+- !private "NSEC_PER_SEC"
+- !private "UIApplication"
+- "UIDevice"
+- "UINavigationController"
+- !private "UIResponder"
+- !private "UIScreen"
+- !private "UITapGestureRecognizer"
+- "UIUserInterfaceIdiom"
+- "UIViewController"
+- "View"
+- "Void"
+- "delay"
+- "delayedCall"
+- "iPad"
+- "iPhone"
+- "size"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["7SwiftUI10AnimatableP", "size"]
+- !private ["7SwiftUI10AnimatableP", "width"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- !private ["s7CVarArgP", "UIViewController"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "cancelsTouchesInView"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "dismissKeyboard"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "resignFirstResponder"]
+- !private ["s7CVarArgP", "sendAction"]
+- !private ["s7CVarArgP", "setViewControllers"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "userInterfaceIdiom"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["20HabitissimoChallenge14CheckInterfaceP", "validate"]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "now"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelsTouchesInView"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dismissKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "sendAction"]
+- !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "userInterfaceIdiom"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "addGestureRecognizer"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endEditing"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UIViewController"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "cancelsTouchesInView"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dismissKeyboard"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "resignFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "sendAction"]
+- !private ["s23CustomStringConvertibleP", "setViewControllers"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "userInterfaceIdiom"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "addGestureRecognizer"]
+- !private ["Se", "count"]
+- !private ["Se", "endEditing"]
+- !private ["Se", "init"]
+- !private ["Se", "size"]
+- !private ["Se", "subscript"]
+- !private ["Se", "width"]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["8Dispatch0A12TimeIntervalO", "milliseconds"]
+- !private ["Sd", "init"]
+- !private ["SE", "addGestureRecognizer"]
+- !private ["SE", "count"]
+- !private ["SE", "endEditing"]
+- !private ["SE", "init"]
+- !private ["SE", "size"]
+- !private ["SE", "subscript"]
+- !private ["SE", "width"]
+- !private ["SQ", "UITapGestureRecognizer"]
+- !private ["SQ", "UIViewController"]
+- !private ["SQ", "addGestureRecognizer"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "cancelsTouchesInView"]
+- !private ["SQ", "count"]
+- ["SQ", "current"]
+- !private ["SQ", "dismissKeyboard"]
+- !private ["SQ", "endEditing"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "milliseconds"]
+- !private ["SQ", "now"]
+- ["SQ", "pad"]
+- ["SQ", "phone"]
+- !private ["SQ", "resignFirstResponder"]
+- !private ["SQ", "sendAction"]
+- !private ["SQ", "setViewControllers"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "size"]
+- !private ["SQ", "subscript"]
+- ["SQ", "userInterfaceIdiom"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewControllers"]
+- !private ["SQ", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "addGestureRecognizer"]
+- !private ["s23ExpressibleByNilLiteralP", "endEditing"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["7SwiftUI7GestureP", "addGestureRecognizer"]
+- !private ["7SwiftUI7GestureP", "endEditing"]
+- !private ["SH", "UITapGestureRecognizer"]
+- !private ["SH", "UIViewController"]
+- !private ["SH", "addGestureRecognizer"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "bounds"]
+- !private ["SH", "cancelsTouchesInView"]
+- !private ["SH", "count"]
+- ["SH", "current"]
+- !private ["SH", "dismissKeyboard"]
+- !private ["SH", "endEditing"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- ["SH", "pad"]
+- ["SH", "phone"]
+- !private ["SH", "resignFirstResponder"]
+- !private ["SH", "sendAction"]
+- !private ["SH", "setViewControllers"]
+- !private ["SH", "shared"]
+- !private ["SH", "subscript"]
+- ["SH", "userInterfaceIdiom"]
+- !private ["SH", "view"]
+- !private ["SH", "viewControllers"]
+- !private ["Si", "init"]
+- !private ["s5Int64V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- !private ["So8NSCodingP", "UIViewController"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "dismissKeyboard"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "setViewControllers"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "UIViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "dismissKeyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CheckInterface"]
+- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "cancelsTouchesInView"]
+- ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "dismissKeyboard"]
+- !private ["So8NSObjectC", "endEditing"]
+- ["So8NSObjectC", "hideKeyboardWhenTappedAround"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "pushViewControllerRemovingAll"]
+- ["So8NSObjectC", "pushViewControllerRemovingSelf"]
+- !private ["So8NSObjectC", "resignFirstResponder"]
+- !private ["So8NSObjectC", "sendAction"]
+- !private ["So8NSObjectC", "setViewControllers"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "userInterfaceIdiom"]
+- ["So8NSObjectC", "validateFields"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "viewControllers"]
+- !private ["So8NSObjectP", "UITapGestureRecognizer"]
+- !private ["So8NSObjectP", "UIViewController"]
+- !private ["So8NSObjectP", "addGestureRecognizer"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "cancelsTouchesInView"]
+- ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "dismissKeyboard"]
+- !private ["So8NSObjectP", "endEditing"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resignFirstResponder"]
+- !private ["So8NSObjectP", "sendAction"]
+- !private ["So8NSObjectP", "setViewControllers"]
+- !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "userInterfaceIdiom"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewControllers"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "addGestureRecognizer"]
+- !private ["Sq", "endEditing"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- ["SY", "pad"]
+- ["SY", "phone"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Combine9SchedulerP", "asyncAfter"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UIViewController"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "dismissKeyboard"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "setViewControllers"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- !private ["So13UIApplicationC", "sendAction"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- !private ["So18UIContentContainerP", "UIViewController"]
+- !private ["So18UIContentContainerP", "dismissKeyboard"]
+- !private ["So18UIContentContainerP", "setViewControllers"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- ["So8UIDeviceC", "current"]
+- ["So8UIDeviceC", "userInterfaceIdiom"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UIViewController"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "dismissKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "setViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So20UIFocusItemContainerP", "addGestureRecognizer"]
+- !private ["So20UIFocusItemContainerP", "endEditing"]
+- !private ["So19UIGestureRecognizerC", "cancelsTouchesInView"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So24UILargeContentViewerItemP", "addGestureRecognizer"]
+- !private ["So24UILargeContentViewerItemP", "endEditing"]
+- ["So22UINavigationControllerC", "Bool"]
+- ["So22UINavigationControllerC", "UIViewController"]
+- ["So22UINavigationControllerC", "pushViewControllerRemovingAll"]
+- ["So22UINavigationControllerC", "pushViewControllerRemovingSelf"]
+- !private ["So22UINavigationControllerC", "setViewControllers"]
+- !private ["So22UINavigationControllerC", "viewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "sendAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- ["So11UIResponderC", "AnyObject"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CheckInterface"]
+- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- ["So11UIResponderC", "dismissKeyboard"]
+- !private ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "hideKeyboardWhenTappedAround"]
+- ["So11UIResponderC", "pushViewControllerRemovingAll"]
+- ["So11UIResponderC", "pushViewControllerRemovingSelf"]
+- !private ["So11UIResponderC", "resignFirstResponder"]
+- !private ["So11UIResponderC", "sendAction"]
+- !private ["So11UIResponderC", "setViewControllers"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "validateFields"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So11UIResponderC", "viewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UIViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "resignFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "sendAction"]
+- !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "UIViewController"]
+- !private ["So16UIStateRestoringP", "dismissKeyboard"]
+- !private ["So16UIStateRestoringP", "setViewControllers"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- !private ["So22UITapGestureRecognizerC", "cancelsTouchesInView"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UIViewController"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "dismissKeyboard"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "setViewControllers"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- !private ["So23UIUserActivityRestoringP", "UITapGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "UIViewController"]
+- !private ["So23UIUserActivityRestoringP", "addGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "dismissKeyboard"]
+- !private ["So23UIUserActivityRestoringP", "endEditing"]
+- !private ["So23UIUserActivityRestoringP", "resignFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "sendAction"]
+- !private ["So23UIUserActivityRestoringP", "setViewControllers"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewControllers"]
+- ["So20UIUserInterfaceIdiomV", "pad"]
+- ["So20UIUserInterfaceIdiomV", "phone"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "endEditing"]
+- ["So16UIViewControllerC", "AnyObject"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "CheckInterface"]
+- !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "dismissKeyboard"]
+- ["So16UIViewControllerC", "hideKeyboardWhenTappedAround"]
+- ["So16UIViewControllerC", "pushViewControllerRemovingAll"]
+- ["So16UIViewControllerC", "pushViewControllerRemovingSelf"]
+- !private ["So16UIViewControllerC", "setViewControllers"]
+- ["So16UIViewControllerC", "validateFields"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- !private ["7SwiftUI16VectorArithmeticP", "init"]
+- !private ["7SwiftUI4ViewP", "UIApplication"]
+- !private ["7SwiftUI4ViewP", "UIResponder"]
+- !private ["7SwiftUI4ViewP", "addGestureRecognizer"]
+- !private ["7SwiftUI4ViewP", "endEditing"]
+- ["7SwiftUI4ViewP", "hideKeyboard"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelsTouchesInView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resignFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "userInterfaceIdiom"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITapGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "asyncAfter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelsTouchesInView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismissKeyboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resignFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sendAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setViewControllers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInterfaceIdiom"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewControllers"]
+- !private ["s21_ObjectiveCBridgeableP", "addGestureRecognizer"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "endEditing"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "7SwiftUI10AnimatableP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- !private "20HabitissimoChallenge14CheckInterfaceP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "Si"
+- !private "s5Int64V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- "So8UIDeviceC"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So19UIGestureRecognizerC"
+- !private "So24UILargeContentViewerItemP"
+- "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So16UIStateRestoringP"
+- !private "So22UITapGestureRecognizerC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So20UIUserInterfaceIdiomV"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "7SwiftUI16VectorArithmeticP"
+- "7SwiftUI4ViewP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/MapKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bb0da544c22879bc8948d5dff6775b66"

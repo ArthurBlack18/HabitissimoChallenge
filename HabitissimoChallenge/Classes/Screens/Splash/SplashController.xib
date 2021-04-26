@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashController">
+            <connections>
+                <outlet property="BGImageView" destination="2RC-Cd-Lw3" id="Hot-Lh-ufl"/>
+                <outlet property="labelTitle" destination="gsj-2U-hj6" id="uv2-xv-rkv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2RC-Cd-Lw3" userLabel="bg View">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FOK-xu-LAF">
+                    <rect key="frame" x="36" y="162" width="303" height="343"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favicon_Habitissimo.png" translatesAutoresizingMaskIntoConstraints="NO" id="o8U-FA-pGK">
+                            <rect key="frame" x="0.0" y="0.0" width="303" height="133"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="o8U-FA-pGK" secondAttribute="height" multiplier="303:133" id="syR-CM-i4m"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="o8U-FA-pGK" firstAttribute="top" secondItem="FOK-xu-LAF" secondAttribute="top" id="J5T-2b-Wkl"/>
+                        <constraint firstItem="o8U-FA-pGK" firstAttribute="leading" secondItem="FOK-xu-LAF" secondAttribute="leading" id="cap-Tx-cw6"/>
+                        <constraint firstAttribute="trailing" secondItem="o8U-FA-pGK" secondAttribute="trailing" id="dlW-uT-4MT"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="US8-6l-SEt">
+                    <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsj-2U-hj6">
+                    <rect key="frame" x="166.5" y="525" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FOK-xu-LAF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="1RN-0f-sbu"/>
+                <constraint firstItem="US8-6l-SEt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3kv-Db-FS3"/>
+                <constraint firstItem="gsj-2U-hj6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="60k-Ac-QAH"/>
+                <constraint firstAttribute="bottom" secondItem="2RC-Cd-Lw3" secondAttribute="bottom" id="7gl-6b-zH9"/>
+                <constraint firstAttribute="trailing" secondItem="2RC-Cd-Lw3" secondAttribute="trailing" id="8TP-O9-GCO"/>
+                <constraint firstItem="US8-6l-SEt" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.12" id="9MN-Lc-fQz"/>
+                <constraint firstItem="2RC-Cd-Lw3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Der-50-Cq3"/>
+                <constraint firstItem="FOK-xu-LAF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OTT-x0-Nq1"/>
+                <constraint firstItem="2RC-Cd-Lw3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Sab-gv-b43"/>
+                <constraint firstItem="US8-6l-SEt" firstAttribute="top" secondItem="gsj-2U-hj6" secondAttribute="bottom" constant="41" id="XCR-Yo-fku"/>
+                <constraint firstAttribute="bottom" secondItem="US8-6l-SEt" secondAttribute="bottom" id="f0I-XY-mKK"/>
+                <constraint firstItem="FOK-xu-LAF" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.808" id="gi3-9p-GTU"/>
+                <constraint firstItem="gsj-2U-hj6" firstAttribute="top" secondItem="FOK-xu-LAF" secondAttribute="bottom" constant="20" id="xth-ax-n8Y"/>
+                <constraint firstAttribute="trailing" secondItem="US8-6l-SEt" secondAttribute="trailing" id="xul-Iz-7YH"/>
+            </constraints>
+            <point key="canvasLocation" x="408.5" y="-74.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="favicon_Habitissimo.png" width="303" height="335"/>
+    </resources>
+</document>
